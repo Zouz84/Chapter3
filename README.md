@@ -68,7 +68,5 @@ end
 On y remarque que ce controlleur Pages hérite (**<**) directement de l'ApplicationController, qui elle même hérite de l'[ActionController::Base](https://github.com/Zouz84/demo_app#235-hi%C3%A9rarchie-des-h%C3%A9ritages).<br/>
 Parce qu'elle hérite de la classe ApplicationController le comportement de ses méthodes est spécifique à Rails : en visitant l'URL **/pages/home**, Rails consulte le **contrôleur Pages** et exécute le code de l'**action home**, et rend alors la vue (le caractère « **V** » de [MVC](https://github.com/Zouz84/demo_app#222-mvc-en-action)) correspondant à l'action.<br/>
 Dans le cas présent, l'action home est vide, donc tous les appels à **/pages/home** rendent simplement la vue. Donc, à quoi ressemble une vue, et où la trouvons-nous ?<br/>
-Réponse: **_app/views/pages/home.html.erb_**
-
-
-
+Réponse: **_app/views/pages/[home.html.erb](https://github.com/Zouz84/Chapter3/blob/master/app/views/pages/home.html.erb)_**
+<br/>
