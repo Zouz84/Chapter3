@@ -16,7 +16,6 @@ $ git init
 $ git add .
 $ git commit -m "Met ce que tu veux, on est en Amérique ! Ah, non? Pas grave."
 ```
-<br/>
 Initialise un nouveau repository:<br/>
 ```Ruby
 $ git remote add origin git@github.com:<username>/sample_app.git
